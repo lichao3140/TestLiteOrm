@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/delete_object"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="删除一个表中的一行"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/delete_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="删除一个表中的一个集合"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/delete_table"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="删除一个表"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/delete_database"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="删除数据库"
+            android:textSize="18sp" />
+        
+        <Button
+            android:id="@+id/add_database"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="添加一条数据"
+            android:textSize="18sp" />
+        
+        <Button
+            android:id="@+id/add_moredatabase"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="添加多条数据"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</RelativeLayout>
